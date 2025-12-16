@@ -1,0 +1,6 @@
+---
+- name: Printing msg
+  hosts: all
+  tasks: 
+  - debug: 
+      msg: "Hello From First  Step 3"
